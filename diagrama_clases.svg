@@ -1,0 +1,608 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3380" height="2330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="tri" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="white" stroke="#000"/></marker><marker id="ab" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#555"/></marker><marker id="dia" markerWidth="14" markerHeight="10" refX="0" refY="5" orient="auto"><path d="M0,5 L7,0 L14,5 L7,10 z" fill="#2f6fb5"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="500" y="40" width="2330" height="2240" rx="14" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="10 7"/><text x="1665.0" y="62" text-anchor="middle" font-size="18" font-weight="bold" fill="#2e7d32">HEXÁGONO — Núcleo + Puertos (no depende de ninguna tecnología)</text>
+<rect x="30" y="74" width="350" height="650" rx="8" fill="#fff2e0" fill-opacity="0.7" stroke="#e08a00"/><text x="205.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">ADAPTADORES PRIMARIOS (Driving / Outside)</text>
+<rect x="510" y="74" width="350" height="1074" rx="8" fill="#e1efff" fill-opacity="0.7" stroke="#2f6fb5"/><text x="685.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">PUERTOS PRIMARIOS (Inside)</text>
+<rect x="990" y="74" width="380" height="1098" rx="8" fill="#e8f5e9" fill-opacity="0.7" stroke="#2e7d32"/><text x="1180.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">APLICACIÓN — Casos de uso (Inside)</text>
+<rect x="1500" y="74" width="350" height="2162" rx="8" fill="#e8f5e9" fill-opacity="0.7" stroke="#2e7d32"/><text x="1675.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">DOMINIO — Entidades (Inside)</text>
+<rect x="1940" y="74" width="360" height="2074" rx="8" fill="#e8f5e9" fill-opacity="0.7" stroke="#2e7d32"/><text x="2120.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">DOMINIO — Reglas y valores (Inside)</text>
+<rect x="2430" y="74" width="390" height="1066" rx="8" fill="#e1efff" fill-opacity="0.7" stroke="#2f6fb5"/><text x="2625.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">PUERTOS SECUNDARIOS (Inside)</text>
+<rect x="2950" y="74" width="400" height="1674" rx="8" fill="#fff2e0" fill-opacity="0.7" stroke="#e08a00"/><text x="3150.0" y="94" text-anchor="middle" font-size="12" font-weight="bold">ADAPTADORES SECUNDARIOS (Driven / Outside)</text>
+<line x1="370" y1="169" x2="520" y2="159" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="370" y1="205" x2="520" y2="227" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="370" y1="240" x2="581" y2="318" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="292" y1="250" x2="638" y2="526" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="274" y1="250" x2="648" y2="630" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="205" y1="250" x2="205" y2="278" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="205" y1="406" x2="205" y2="378" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="205" y1="510" x2="205" y2="378" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="205" y1="614" x2="205" y2="378" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="245" y1="378" x2="654" y2="886" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1000" y1="176" x2="850" y2="163" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="1000" y1="356" x2="800" y2="290" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="1058" y1="558" x2="755" y2="394" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="1089" y1="718" x2="745" y2="498" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="1099" y1="862" x2="738" y2="602" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="1099" y1="1006" x2="732" y2="706" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="685" y1="186" x2="685" y2="734" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="685" y1="290" x2="685" y2="886" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="685" y1="290" x2="685" y2="990" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="189" x2="2440" y2="168" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="207" x2="2440" y2="300" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="244" x2="2440" y2="555" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1315" y1="274" x2="2562" y2="1030" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="385" x2="2440" y2="196" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="404" x2="2440" y2="329" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="422" x2="2440" y2="461" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="440" x2="2440" y2="583" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="471" x2="2501" y2="822" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="457" x2="2440" y2="702" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="484" x2="2525" y2="926" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="497" x2="2541" y2="1030" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="567" x2="2455" y2="218" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="586" x2="2440" y2="355" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="679" x2="2501" y2="1030" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="719" x2="2440" y2="375" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="812" x2="2440" y2="1031" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1319" y1="862" x2="2458" y2="386" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="864" x2="2452" y2="522" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1285" y1="1006" x2="2539" y2="218" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1306" y1="1006" x2="2491" y2="386" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1338" y1="1006" x2="2496" y2="522" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1360" y1="186" x2="1950" y2="166" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1226" y1="274" x2="1566" y2="878" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1338" y1="274" x2="1962" y2="598" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1237" y1="530" x2="1622" y2="1294" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="878" x2="1675" y2="682" fill="none" stroke="#2f6fb5" marker-start="url(#dia)" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="878" x2="1675" y2="850" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="1266" x2="1675" y2="1942" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="1266" x2="1675" y2="2094" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="682" x2="1675" y2="1806" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="306" x2="1675" y2="1534" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="306" x2="1675" y2="1670" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="306" x2="1675" y2="334" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1675" y1="1294" x2="1675" y2="1266" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1760" y1="1294" x2="2077" y2="898" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2120" y1="210" x2="2120" y2="238" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2120" y1="210" x2="2120" y2="414" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2068" y1="210" x2="1778" y2="486" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2027" y1="762" x2="1840" y2="927" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1950" y1="643" x2="1840" y2="620" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="1976" y1="926" x2="1819" y2="850" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2120" y1="1322" x2="2120" y2="1350" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2120" y1="1758" x2="2120" y2="1730" fill="none" stroke="#2f6fb5" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2440" y1="173" x2="1840" y2="200" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2503" y1="218" x2="1840" y2="511" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2440" y1="209" x2="1840" y2="356" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2537" y1="386" x2="1840" y2="941" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2570" y1="522" x2="1783" y2="1294" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2550" y1="666" x2="2211" y2="926" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2570" y1="666" x2="2164" y2="1094" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2581" y1="666" x2="2161" y2="1214" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2601" y1="794" x2="2146" y2="1758" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2440" y1="751" x2="1840" y2="774" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2601" y1="898" x2="2153" y2="1622" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2592" y1="1002" x2="2167" y2="1486" fill="none" stroke="#8a8a8a" stroke-dasharray="4 4" marker-end="url(#ab)" stroke-width="1" opacity="0.8"/>
+<line x1="2960" y1="177" x2="2810" y2="171" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="2960" y1="349" x2="2810" y2="334" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="2960" y1="516" x2="2810" y2="495" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3096" y1="638" x2="2679" y2="218" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3075" y1="638" x2="2723" y2="386" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3023" y1="638" x2="2752" y2="522" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3001" y1="774" x2="2756" y2="666" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3095" y1="1174" x2="2680" y2="794" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3107" y1="1302" x2="2668" y2="794" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3117" y1="1430" x2="2658" y2="898" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3117" y1="1534" x2="2658" y2="1002" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3117" y1="1638" x2="2658" y2="1106" fill="none" stroke="#2e7d32" stroke-dasharray="6 4" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3150" y1="934" x2="3150" y2="906" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3150" y1="1014" x2="3150" y2="906" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<line x1="3150" y1="1094" x2="3150" y2="906" fill="none" stroke="#000" marker-end="url(#tri)" stroke-width="1" opacity="0.8"/>
+<rect x="40" y="110" width="330" height="140" fill="#ffe6bf" stroke="#444"/>
+<text x="205.0" y="126" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="205.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">AppHTTP (FastAPI)</text>
+<line x1="40" y1="150" x2="370" y2="150" stroke="#444"/>
+<text x="46" y="166" font-size="10.5">+disponibilidad(evento_id): list</text>
+<text x="46" y="182" font-size="10.5">+iniciar_compra(datos: CompraIn): dict</text>
+<text x="46" y="198" font-size="10.5">+webhook_pago(proveedor, payload): dict</text>
+<text x="46" y="214" font-size="10.5">+consultar_orden(orden_id): dict</text>
+<text x="46" y="230" font-size="10.5">+validar_boleto(codigo): dict</text>
+<rect x="40" y="278" width="330" height="100" fill="#ffe6bf" stroke="#444"/>
+<text x="205.0" y="294" text-anchor="middle" font-size="10" fill="#444">«abstract»</text>
+<text x="205.0" y="308" text-anchor="middle" font-size="12" font-weight="bold">TraductorWebhook</text>
+<line x1="40" y1="318" x2="370" y2="318" stroke="#444"/>
+<text x="46" y="334" font-size="10.5">+medio: MedioPago</text>
+<line x1="40" y1="342" x2="370" y2="342" stroke="#444"/>
+<text x="46" y="358" font-size="10.5">+traducir(payload): ConfirmarPagoCommand</text>
+<rect x="40" y="406" width="330" height="76" fill="#ffe6bf" stroke="#444"/>
+<text x="205.0" y="422" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="205.0" y="436" text-anchor="middle" font-size="12" font-weight="bold">TraductorWebhookPayPal</text>
+<line x1="40" y1="446" x2="370" y2="446" stroke="#444"/>
+<text x="46" y="462" font-size="10.5">+traducir(payload): ConfirmarPagoCommand</text>
+<rect x="40" y="510" width="330" height="76" fill="#ffe6bf" stroke="#444"/>
+<text x="205.0" y="526" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="205.0" y="540" text-anchor="middle" font-size="12" font-weight="bold">TraductorWebhookWompi</text>
+<line x1="40" y1="550" x2="370" y2="550" stroke="#444"/>
+<text x="46" y="566" font-size="10.5">+traducir(payload): ConfirmarPagoCommand</text>
+<rect x="40" y="614" width="330" height="76" fill="#ffe6bf" stroke="#444"/>
+<text x="205.0" y="630" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="205.0" y="644" text-anchor="middle" font-size="12" font-weight="bold">TraductorWebhookPSE</text>
+<line x1="40" y1="654" x2="370" y2="654" stroke="#444"/>
+<text x="46" y="670" font-size="10.5">+traducir(payload): ConfirmarPagoCommand</text>
+<rect x="520" y="110" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="126" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">IniciarCompraUseCase</text>
+<line x1="520" y1="150" x2="850" y2="150" stroke="#444"/>
+<text x="526" y="166" font-size="10.5">+ejecutar(IniciarCompraCommand): Orden</text>
+<rect x="520" y="214" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="230" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="244" text-anchor="middle" font-size="12" font-weight="bold">ConfirmarPagoUseCase</text>
+<line x1="520" y1="254" x2="850" y2="254" stroke="#444"/>
+<text x="526" y="270" font-size="10.5">+ejecutar(ConfirmarPagoCommand): ResultadoConfirmacion</text>
+<rect x="520" y="318" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="334" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="348" text-anchor="middle" font-size="12" font-weight="bold">ConsultarDisponibilidadUseCase</text>
+<line x1="520" y1="358" x2="850" y2="358" stroke="#444"/>
+<text x="526" y="374" font-size="10.5">+ejecutar(evento_id): List~Asiento~</text>
+<rect x="520" y="422" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="438" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="452" text-anchor="middle" font-size="12" font-weight="bold">ExpirarOrdenesUseCase</text>
+<line x1="520" y1="462" x2="850" y2="462" stroke="#444"/>
+<text x="526" y="478" font-size="10.5">+ejecutar(): int</text>
+<rect x="520" y="526" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="542" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="556" text-anchor="middle" font-size="12" font-weight="bold">ConsultarOrdenUseCase</text>
+<line x1="520" y1="566" x2="850" y2="566" stroke="#444"/>
+<text x="526" y="582" font-size="10.5">+ejecutar(orden_id): DetalleOrden</text>
+<rect x="520" y="630" width="330" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="685.0" y="646" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="685.0" y="660" text-anchor="middle" font-size="12" font-weight="bold">ValidarBoletoUseCase</text>
+<line x1="520" y1="670" x2="850" y2="670" stroke="#444"/>
+<text x="526" y="686" font-size="10.5">+ejecutar(codigo): ResultadoValidacion</text>
+<rect x="520" y="734" width="330" height="124" fill="#ecf4ff" stroke="#444"/>
+<text x="685.0" y="750" text-anchor="middle" font-size="10" fill="#444">«record»</text>
+<text x="685.0" y="764" text-anchor="middle" font-size="12" font-weight="bold">IniciarCompraCommand</text>
+<line x1="520" y1="774" x2="850" y2="774" stroke="#444"/>
+<text x="526" y="790" font-size="10.5">+cliente: Cliente</text>
+<text x="526" y="806" font-size="10.5">+evento_id: str</text>
+<text x="526" y="822" font-size="10.5">+asiento_ids: List~str~</text>
+<text x="526" y="838" font-size="10.5">+medio_pago: MedioPago</text>
+<rect x="520" y="886" width="330" height="76" fill="#ecf4ff" stroke="#444"/>
+<text x="685.0" y="902" text-anchor="middle" font-size="10" fill="#444">«record»</text>
+<text x="685.0" y="916" text-anchor="middle" font-size="12" font-weight="bold">ConfirmarPagoCommand</text>
+<line x1="520" y1="926" x2="850" y2="926" stroke="#444"/>
+<text x="526" y="942" font-size="10.5">+orden_id: str</text>
+<rect x="520" y="990" width="330" height="124" fill="#ecf4ff" stroke="#444"/>
+<text x="685.0" y="1006" text-anchor="middle" font-size="10" fill="#444">«record»</text>
+<text x="685.0" y="1020" text-anchor="middle" font-size="12" font-weight="bold">ResultadoConfirmacion</text>
+<line x1="520" y1="1030" x2="850" y2="1030" stroke="#444"/>
+<text x="526" y="1046" font-size="10.5">+orden: Orden</text>
+<text x="526" y="1062" font-size="10.5">+boletos: List~Boleto~</text>
+<text x="526" y="1078" font-size="10.5">+factura: Factura</text>
+<text x="526" y="1094" font-size="10.5">+advertencias: List~str~</text>
+<rect x="1000" y="110" width="360" height="164" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="126" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">ServicioIniciarCompra</text>
+<line x1="1000" y1="150" x2="1360" y2="150" stroke="#444"/>
+<text x="1006" y="166" font-size="10.5">-catalogo: RepositorioCatalogo</text>
+<text x="1006" y="182" font-size="10.5">-ordenes: RepositorioOrdenes</text>
+<text x="1006" y="198" font-size="10.5">-pasarelas: Map~MedioPago,PasarelaPago~</text>
+<text x="1006" y="214" font-size="10.5">-calculadora: CalculadoraTarifas</text>
+<text x="1006" y="230" font-size="10.5">-reloj: Reloj</text>
+<line x1="1000" y1="238" x2="1360" y2="238" stroke="#444"/>
+<text x="1006" y="254" font-size="10.5">+ejecutar(IniciarCompraCommand): Orden</text>
+<rect x="1000" y="302" width="360" height="228" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="318" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="332" text-anchor="middle" font-size="12" font-weight="bold">ServicioConfirmarPago</text>
+<line x1="1000" y1="342" x2="1360" y2="342" stroke="#444"/>
+<text x="1006" y="358" font-size="10.5">-catalogo</text>
+<text x="1006" y="374" font-size="10.5">-ordenes</text>
+<text x="1006" y="390" font-size="10.5">-boletos</text>
+<text x="1006" y="406" font-size="10.5">-pasarelas</text>
+<text x="1006" y="422" font-size="10.5">-generador: GeneradorRepresentacionBoleto</text>
+<text x="1006" y="438" font-size="10.5">-notificadores: List~NotificadorCliente~</text>
+<text x="1006" y="454" font-size="10.5">-facturador: EmisorFacturaElectronica</text>
+<text x="1006" y="470" font-size="10.5">-reloj</text>
+<line x1="1000" y1="478" x2="1360" y2="478" stroke="#444"/>
+<text x="1006" y="494" font-size="10.5">+ejecutar(ConfirmarPagoCommand): ResultadoConfirmacion</text>
+<text x="1006" y="510" font-size="10.5">-efectos_posteriores(orden, evento, boletos)</text>
+<rect x="1000" y="558" width="360" height="132" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="574" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="588" text-anchor="middle" font-size="12" font-weight="bold">ServicioConsultaDisponibilidad</text>
+<line x1="1000" y1="598" x2="1360" y2="598" stroke="#444"/>
+<text x="1006" y="614" font-size="10.5">-catalogo</text>
+<text x="1006" y="630" font-size="10.5">-ordenes</text>
+<text x="1006" y="646" font-size="10.5">-reloj</text>
+<line x1="1000" y1="654" x2="1360" y2="654" stroke="#444"/>
+<text x="1006" y="670" font-size="10.5">+ejecutar(evento_id): List~Asiento~</text>
+<rect x="1000" y="718" width="360" height="116" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="734" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="748" text-anchor="middle" font-size="12" font-weight="bold">ServicioExpirarOrdenes</text>
+<line x1="1000" y1="758" x2="1360" y2="758" stroke="#444"/>
+<text x="1006" y="774" font-size="10.5">-ordenes</text>
+<text x="1006" y="790" font-size="10.5">-reloj</text>
+<line x1="1000" y1="798" x2="1360" y2="798" stroke="#444"/>
+<text x="1006" y="814" font-size="10.5">+ejecutar(): int</text>
+<rect x="1000" y="862" width="360" height="116" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="878" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="892" text-anchor="middle" font-size="12" font-weight="bold">ServicioConsultaOrden</text>
+<line x1="1000" y1="902" x2="1360" y2="902" stroke="#444"/>
+<text x="1006" y="918" font-size="10.5">-ordenes</text>
+<text x="1006" y="934" font-size="10.5">-boletos</text>
+<line x1="1000" y1="942" x2="1360" y2="942" stroke="#444"/>
+<text x="1006" y="958" font-size="10.5">+ejecutar(orden_id): DetalleOrden</text>
+<rect x="1000" y="1006" width="360" height="132" fill="#d4edd6" stroke="#444"/>
+<text x="1180.0" y="1022" text-anchor="middle" font-size="10" fill="#444">«use case»</text>
+<text x="1180.0" y="1036" text-anchor="middle" font-size="12" font-weight="bold">ServicioValidarBoleto</text>
+<line x1="1000" y1="1046" x2="1360" y2="1046" stroke="#444"/>
+<text x="1006" y="1062" font-size="10.5">-catalogo</text>
+<text x="1006" y="1078" font-size="10.5">-ordenes</text>
+<text x="1006" y="1094" font-size="10.5">-boletos</text>
+<line x1="1000" y1="1102" x2="1360" y2="1102" stroke="#444"/>
+<text x="1006" y="1118" font-size="10.5">+ejecutar(codigo): ResultadoValidacion</text>
+<rect x="1510" y="110" width="330" height="196" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="126" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">Evento</text>
+<line x1="1510" y1="150" x2="1840" y2="150" stroke="#444"/>
+<text x="1516" y="166" font-size="10.5">+id: str</text>
+<text x="1516" y="182" font-size="10.5">+nombre: str</text>
+<text x="1516" y="198" font-size="10.5">+tipo: TipoEvento</text>
+<text x="1516" y="214" font-size="10.5">+recinto_id: str</text>
+<text x="1516" y="230" font-size="10.5">+fecha_hora: datetime</text>
+<text x="1516" y="246" font-size="10.5">+estado: EstadoEvento</text>
+<text x="1516" y="262" font-size="10.5">+clave_secreta: str</text>
+<line x1="1510" y1="270" x2="1840" y2="270" stroke="#444"/>
+<text x="1516" y="286" font-size="10.5">+admite_ventas(): bool</text>
+<rect x="1510" y="334" width="330" height="124" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="350" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="364" text-anchor="middle" font-size="12" font-weight="bold">Recinto</text>
+<line x1="1510" y1="374" x2="1840" y2="374" stroke="#444"/>
+<text x="1516" y="390" font-size="10.5">+id: str</text>
+<text x="1516" y="406" font-size="10.5">+nombre: str</text>
+<text x="1516" y="422" font-size="10.5">+ciudad: str</text>
+<text x="1516" y="438" font-size="10.5">+aforo: int</text>
+<rect x="1510" y="486" width="330" height="196" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="502" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="516" text-anchor="middle" font-size="12" font-weight="bold">Asiento</text>
+<line x1="1510" y1="526" x2="1840" y2="526" stroke="#444"/>
+<text x="1516" y="542" font-size="10.5">+id: str</text>
+<text x="1516" y="558" font-size="10.5">+recinto_id: str</text>
+<text x="1516" y="574" font-size="10.5">+codigo_ubicacion: str</text>
+<text x="1516" y="590" font-size="10.5">+precio_base: Decimal</text>
+<text x="1516" y="606" font-size="10.5">+estado: EstadoAsiento</text>
+<line x1="1510" y1="614" x2="1840" y2="614" stroke="#444"/>
+<text x="1516" y="630" font-size="10.5">+bloquear()</text>
+<text x="1516" y="646" font-size="10.5">+vender()</text>
+<text x="1516" y="662" font-size="10.5">+liberar()</text>
+<rect x="1510" y="710" width="330" height="140" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="726" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="740" text-anchor="middle" font-size="12" font-weight="bold">Cliente</text>
+<line x1="1510" y1="750" x2="1840" y2="750" stroke="#444"/>
+<text x="1516" y="766" font-size="10.5">+id: str</text>
+<text x="1516" y="782" font-size="10.5">+nombre_completo: str</text>
+<text x="1516" y="798" font-size="10.5">+correo: str</text>
+<text x="1516" y="814" font-size="10.5">+telefono_movil: str</text>
+<text x="1516" y="830" font-size="10.5">+nacionalidad: str</text>
+<rect x="1510" y="878" width="330" height="388" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="894" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="908" text-anchor="middle" font-size="12" font-weight="bold">Orden</text>
+<line x1="1510" y1="918" x2="1840" y2="918" stroke="#444"/>
+<text x="1516" y="934" font-size="10.5">+id: str</text>
+<text x="1516" y="950" font-size="10.5">+cliente: Cliente</text>
+<text x="1516" y="966" font-size="10.5">+evento_id: str</text>
+<text x="1516" y="982" font-size="10.5">+asientos: List~Asiento~</text>
+<text x="1516" y="998" font-size="10.5">+medio_pago: MedioPago</text>
+<text x="1516" y="1014" font-size="10.5">+subtotal: Decimal</text>
+<text x="1516" y="1030" font-size="10.5">+tarifa_servicio: Decimal</text>
+<text x="1516" y="1046" font-size="10.5">+descuento: Decimal</text>
+<text x="1516" y="1062" font-size="10.5">+monto_total: Decimal</text>
+<text x="1516" y="1078" font-size="10.5">+creada_en: datetime</text>
+<text x="1516" y="1094" font-size="10.5">+expira_en: datetime</text>
+<text x="1516" y="1110" font-size="10.5">+estado: EstadoOrden</text>
+<text x="1516" y="1126" font-size="10.5">+referencia_pago: str</text>
+<line x1="1510" y1="1134" x2="1840" y2="1134" stroke="#444"/>
+<text x="1516" y="1150" font-size="10.5">+crear(...): Orden</text>
+<text x="1516" y="1166" font-size="10.5">+esta_vigente(ahora): bool</text>
+<text x="1516" y="1182" font-size="10.5">+ocupa_asientos(ahora): bool</text>
+<text x="1516" y="1198" font-size="10.5">+registrar_referencia_pago(ref)</text>
+<text x="1516" y="1214" font-size="10.5">+aprobar(ahora)</text>
+<text x="1516" y="1230" font-size="10.5">+rechazar()</text>
+<text x="1516" y="1246" font-size="10.5">+expirar()</text>
+<rect x="1510" y="1294" width="330" height="212" fill="#d4edd6" stroke="#444"/>
+<text x="1675.0" y="1310" text-anchor="middle" font-size="10" fill="#444">«entity»</text>
+<text x="1675.0" y="1324" text-anchor="middle" font-size="12" font-weight="bold">Boleto</text>
+<line x1="1510" y1="1334" x2="1840" y2="1334" stroke="#444"/>
+<text x="1516" y="1350" font-size="10.5">+id: str</text>
+<text x="1516" y="1366" font-size="10.5">+orden_id: str</text>
+<text x="1516" y="1382" font-size="10.5">+evento_id: str</text>
+<text x="1516" y="1398" font-size="10.5">+asiento_codigo: str</text>
+<text x="1516" y="1414" font-size="10.5">+codigo_redencion: str</text>
+<text x="1516" y="1430" font-size="10.5">+firma_hash: str</text>
+<text x="1516" y="1446" font-size="10.5">+fecha_emision: datetime</text>
+<line x1="1510" y1="1454" x2="1840" y2="1454" stroke="#444"/>
+<text x="1516" y="1470" font-size="10.5">+emitir(orden, asiento, clave, ahora): Boleto</text>
+<text x="1516" y="1486" font-size="10.5">+firma_es_valida(orden, clave): bool</text>
+<rect x="1510" y="1534" width="330" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="1675.0" y="1550" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="1675.0" y="1564" text-anchor="middle" font-size="12" font-weight="bold">TipoEvento</text>
+<line x1="1510" y1="1574" x2="1840" y2="1574" stroke="#444"/>
+<text x="1516" y="1590" font-size="10.5">CONCIERTO</text>
+<text x="1516" y="1606" font-size="10.5">TEATRO</text>
+<text x="1516" y="1622" font-size="10.5">FESTIVAL</text>
+<rect x="1510" y="1670" width="330" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="1675.0" y="1686" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="1675.0" y="1700" text-anchor="middle" font-size="12" font-weight="bold">EstadoEvento</text>
+<line x1="1510" y1="1710" x2="1840" y2="1710" stroke="#444"/>
+<text x="1516" y="1726" font-size="10.5">PROGRAMADO</text>
+<text x="1516" y="1742" font-size="10.5">AGOTADO</text>
+<text x="1516" y="1758" font-size="10.5">CANCELADO</text>
+<rect x="1510" y="1806" width="330" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="1675.0" y="1822" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="1675.0" y="1836" text-anchor="middle" font-size="12" font-weight="bold">EstadoAsiento</text>
+<line x1="1510" y1="1846" x2="1840" y2="1846" stroke="#444"/>
+<text x="1516" y="1862" font-size="10.5">DISPONIBLE</text>
+<text x="1516" y="1878" font-size="10.5">BLOQUEADO</text>
+<text x="1516" y="1894" font-size="10.5">VENDIDO</text>
+<rect x="1510" y="1942" width="330" height="124" fill="#eef7ee" stroke="#444"/>
+<text x="1675.0" y="1958" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="1675.0" y="1972" text-anchor="middle" font-size="12" font-weight="bold">EstadoOrden</text>
+<line x1="1510" y1="1982" x2="1840" y2="1982" stroke="#444"/>
+<text x="1516" y="1998" font-size="10.5">PENDIENTE_PAGO</text>
+<text x="1516" y="2014" font-size="10.5">APROBADA</text>
+<text x="1516" y="2030" font-size="10.5">RECHAZADA</text>
+<text x="1516" y="2046" font-size="10.5">EXPIRADA</text>
+<rect x="1510" y="2094" width="330" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="1675.0" y="2110" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="1675.0" y="2124" text-anchor="middle" font-size="12" font-weight="bold">MedioPago</text>
+<line x1="1510" y1="2134" x2="1840" y2="2134" stroke="#444"/>
+<text x="1516" y="2150" font-size="10.5">PAYPAL</text>
+<text x="1516" y="2166" font-size="10.5">WOMPI</text>
+<text x="1516" y="2182" font-size="10.5">PSE</text>
+<rect x="1950" y="110" width="340" height="100" fill="#d4edd6" stroke="#444"/>
+<text x="2120.0" y="126" text-anchor="middle" font-size="10" fill="#444">«domain service»</text>
+<text x="2120.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">CalculadoraTarifas</text>
+<line x1="1950" y1="150" x2="2290" y2="150" stroke="#444"/>
+<text x="1956" y="166" font-size="10.5">-tramos: List~TramoTarifa~</text>
+<line x1="1950" y1="174" x2="2290" y2="174" stroke="#444"/>
+<text x="1956" y="190" font-size="10.5">+calcular(asientos): Liquidacion</text>
+<rect x="1950" y="238" width="340" height="148" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="254" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="268" text-anchor="middle" font-size="12" font-weight="bold">TramoTarifa</text>
+<line x1="1950" y1="278" x2="2290" y2="278" stroke="#444"/>
+<text x="1956" y="294" font-size="10.5">+minimo: int</text>
+<text x="1956" y="310" font-size="10.5">+maximo: int</text>
+<text x="1956" y="326" font-size="10.5">+porcentaje_tarifa: Decimal</text>
+<text x="1956" y="342" font-size="10.5">+porcentaje_descuento: Decimal</text>
+<line x1="1950" y1="350" x2="2290" y2="350" stroke="#444"/>
+<text x="1956" y="366" font-size="10.5">+aplica_a(cantidad): bool</text>
+<rect x="1950" y="414" width="340" height="156" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="430" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="444" text-anchor="middle" font-size="12" font-weight="bold">Liquidacion</text>
+<line x1="1950" y1="454" x2="2290" y2="454" stroke="#444"/>
+<text x="1956" y="470" font-size="10.5">+subtotal</text>
+<text x="1956" y="486" font-size="10.5">+tarifa_servicio</text>
+<text x="1956" y="502" font-size="10.5">+descuento</text>
+<text x="1956" y="518" font-size="10.5">+monto_total</text>
+<text x="1956" y="534" font-size="10.5">+porcentaje_tarifa</text>
+<text x="1956" y="550" font-size="10.5">+porcentaje_descuento</text>
+<rect x="1950" y="598" width="340" height="164" fill="#d4edd6" stroke="#444"/>
+<text x="2120.0" y="614" text-anchor="middle" font-size="10" fill="#444">«domain rules»</text>
+<text x="2120.0" y="628" text-anchor="middle" font-size="12" font-weight="bold">ReglasCompra</text>
+<line x1="1950" y1="638" x2="2290" y2="638" stroke="#444"/>
+<text x="1956" y="654" font-size="10.5">TIEMPO_BLOQUEO = 10 min</text>
+<text x="1956" y="670" font-size="10.5">MAX_BOLETOS_POR_EVENTO = 6</text>
+<line x1="1950" y1="678" x2="2290" y2="678" stroke="#444"/>
+<text x="1956" y="694" font-size="10.5">+aplicar_ocupacion(asientos, ordenes, ahora)</text>
+<text x="1956" y="710" font-size="10.5">+seleccionar_asientos(asientos, ids)</text>
+<text x="1956" y="726" font-size="10.5">+contar_boletos_acumulados(ordenes, ahora)</text>
+<text x="1956" y="742" font-size="10.5">+validar_limite_boletos(acumulados, nuevos)</text>
+<rect x="1950" y="790" width="340" height="108" fill="#d4edd6" stroke="#444"/>
+<text x="2120.0" y="806" text-anchor="middle" font-size="10" fill="#444">«domain rules»</text>
+<text x="2120.0" y="820" text-anchor="middle" font-size="12" font-weight="bold">FirmaBoleto</text>
+<line x1="1950" y1="830" x2="2290" y2="830" stroke="#444"/>
+<text x="1956" y="846" font-size="10.5">+generar_codigo_redencion(): str</text>
+<text x="1956" y="862" font-size="10.5">+calcular_firma(clave, datos...): str  «HMAC-SHA256»</text>
+<text x="1956" y="878" font-size="10.5">+firmas_coinciden(a, b): bool</text>
+<rect x="1950" y="926" width="340" height="140" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="942" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="956" text-anchor="middle" font-size="12" font-weight="bold">SolicitudPago</text>
+<line x1="1950" y1="966" x2="2290" y2="966" stroke="#444"/>
+<text x="1956" y="982" font-size="10.5">+orden_id</text>
+<text x="1956" y="998" font-size="10.5">+monto: Decimal</text>
+<text x="1956" y="1014" font-size="10.5">+moneda</text>
+<text x="1956" y="1030" font-size="10.5">+cliente: Cliente</text>
+<text x="1956" y="1046" font-size="10.5">+descripcion</text>
+<rect x="1950" y="1094" width="340" height="92" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1110" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="1124" text-anchor="middle" font-size="12" font-weight="bold">ReferenciaPago</text>
+<line x1="1950" y1="1134" x2="2290" y2="1134" stroke="#444"/>
+<text x="1956" y="1150" font-size="10.5">+referencia: str</text>
+<text x="1956" y="1166" font-size="10.5">+instrucciones: str</text>
+<rect x="1950" y="1214" width="340" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1230" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="1244" text-anchor="middle" font-size="12" font-weight="bold">ResultadoPago</text>
+<line x1="1950" y1="1254" x2="2290" y2="1254" stroke="#444"/>
+<text x="1956" y="1270" font-size="10.5">+referencia: str</text>
+<text x="1956" y="1286" font-size="10.5">+estado: EstadoPago</text>
+<text x="1956" y="1302" font-size="10.5">+monto: Decimal</text>
+<rect x="1950" y="1350" width="340" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1366" text-anchor="middle" font-size="10" fill="#444">«enumeration»</text>
+<text x="2120.0" y="1380" text-anchor="middle" font-size="12" font-weight="bold">EstadoPago</text>
+<line x1="1950" y1="1390" x2="2290" y2="1390" stroke="#444"/>
+<text x="1956" y="1406" font-size="10.5">PENDIENTE</text>
+<text x="1956" y="1422" font-size="10.5">APROBADO</text>
+<text x="1956" y="1438" font-size="10.5">RECHAZADO</text>
+<rect x="1950" y="1486" width="340" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1502" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="1516" text-anchor="middle" font-size="12" font-weight="bold">Factura</text>
+<line x1="1950" y1="1526" x2="2290" y2="1526" stroke="#444"/>
+<text x="1956" y="1542" font-size="10.5">+numero</text>
+<text x="1956" y="1558" font-size="10.5">+cufe</text>
+<text x="1956" y="1574" font-size="10.5">+orden_id</text>
+<rect x="1950" y="1622" width="340" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1638" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="1652" text-anchor="middle" font-size="12" font-weight="bold">RepresentacionBoleto</text>
+<line x1="1950" y1="1662" x2="2290" y2="1662" stroke="#444"/>
+<text x="1956" y="1678" font-size="10.5">+boleto_id</text>
+<text x="1956" y="1694" font-size="10.5">+contenido: bytes</text>
+<text x="1956" y="1710" font-size="10.5">+tipo_mime</text>
+<rect x="1950" y="1758" width="340" height="108" fill="#eef7ee" stroke="#444"/>
+<text x="2120.0" y="1774" text-anchor="middle" font-size="10" fill="#444">«value»</text>
+<text x="2120.0" y="1788" text-anchor="middle" font-size="12" font-weight="bold">Mensaje</text>
+<line x1="1950" y1="1798" x2="2290" y2="1798" stroke="#444"/>
+<text x="1956" y="1814" font-size="10.5">+asunto: str</text>
+<text x="1956" y="1830" font-size="10.5">+cuerpo: str</text>
+<text x="1956" y="1846" font-size="10.5">+adjuntos: Tuple~RepresentacionBoleto~</text>
+<rect x="1950" y="1894" width="340" height="220" fill="#fbe9e7" stroke="#444"/>
+<text x="2120.0" y="1910" text-anchor="middle" font-size="10" fill="#444">«exceptions»</text>
+<text x="2120.0" y="1924" text-anchor="middle" font-size="12" font-weight="bold">Excepciones de negocio</text>
+<line x1="1950" y1="1934" x2="2290" y2="1934" stroke="#444"/>
+<text x="1956" y="1950" font-size="10.5">DominioError</text>
+<text x="1956" y="1966" font-size="10.5"> ├ DatosInvalidosError</text>
+<text x="1956" y="1982" font-size="10.5"> ├ EntidadNoEncontradaError</text>
+<text x="1956" y="1998" font-size="10.5"> ├ EventoNoDisponibleError</text>
+<text x="1956" y="2014" font-size="10.5"> ├ SeleccionInvalidaError</text>
+<text x="1956" y="2030" font-size="10.5"> ├ AsientoNoDisponibleError</text>
+<text x="1956" y="2046" font-size="10.5"> ├ LimiteBoletosExcedidoError</text>
+<text x="1956" y="2062" font-size="10.5"> ├ OrdenExpiradaError</text>
+<text x="1956" y="2078" font-size="10.5"> ├ TransicionInvalidaError</text>
+<text x="1956" y="2094" font-size="10.5"> └ PagoNoVerificadoError</text>
+<rect x="2440" y="110" width="370" height="108" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="126" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">RepositorioCatalogo</text>
+<line x1="2440" y1="150" x2="2810" y2="150" stroke="#444"/>
+<text x="2446" y="166" font-size="10.5">+obtener_evento(evento_id): Evento</text>
+<text x="2446" y="182" font-size="10.5">+obtener_recinto(recinto_id): Recinto</text>
+<text x="2446" y="198" font-size="10.5">+listar_asientos_recinto(recinto_id): List~Asiento~</text>
+<rect x="2440" y="246" width="370" height="140" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="262" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="276" text-anchor="middle" font-size="12" font-weight="bold">RepositorioOrdenes</text>
+<line x1="2440" y1="286" x2="2810" y2="286" stroke="#444"/>
+<text x="2446" y="302" font-size="10.5">+guardar(orden)</text>
+<text x="2446" y="318" font-size="10.5">+obtener(orden_id): Orden</text>
+<text x="2446" y="334" font-size="10.5">+buscar_ocupantes_evento(evento_id, ahora): List~Orden~</text>
+<text x="2446" y="350" font-size="10.5">+buscar_por_cliente_y_evento(cliente_id, evento_id): List~Orden~</text>
+<text x="2446" y="366" font-size="10.5">+buscar_pendientes_vencidas(ahora): List~Orden~</text>
+<rect x="2440" y="414" width="370" height="108" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="430" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="444" text-anchor="middle" font-size="12" font-weight="bold">RepositorioBoletos</text>
+<line x1="2440" y1="454" x2="2810" y2="454" stroke="#444"/>
+<text x="2446" y="470" font-size="10.5">+guardar_todos(boletos)</text>
+<text x="2446" y="486" font-size="10.5">+buscar_por_orden(orden_id): List~Boleto~</text>
+<text x="2446" y="502" font-size="10.5">+buscar_por_codigo(codigo): Boleto</text>
+<rect x="2440" y="550" width="370" height="116" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="566" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="580" text-anchor="middle" font-size="12" font-weight="bold">PasarelaPago</text>
+<line x1="2440" y1="590" x2="2810" y2="590" stroke="#444"/>
+<text x="2446" y="606" font-size="10.5">+medio: MedioPago</text>
+<line x1="2440" y1="614" x2="2810" y2="614" stroke="#444"/>
+<text x="2446" y="630" font-size="10.5">+registrar_pago(SolicitudPago): ReferenciaPago</text>
+<text x="2446" y="646" font-size="10.5">+verificar_pago(referencia): ResultadoPago</text>
+<rect x="2440" y="694" width="370" height="100" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="710" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="724" text-anchor="middle" font-size="12" font-weight="bold">NotificadorCliente</text>
+<line x1="2440" y1="734" x2="2810" y2="734" stroke="#444"/>
+<text x="2446" y="750" font-size="10.5">+canal: str</text>
+<line x1="2440" y1="758" x2="2810" y2="758" stroke="#444"/>
+<text x="2446" y="774" font-size="10.5">+enviar(cliente: Cliente, mensaje: Mensaje)</text>
+<rect x="2440" y="822" width="370" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="838" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="852" text-anchor="middle" font-size="12" font-weight="bold">GeneradorRepresentacionBoleto</text>
+<line x1="2440" y1="862" x2="2810" y2="862" stroke="#444"/>
+<text x="2446" y="878" font-size="10.5">+generar(boleto, evento): RepresentacionBoleto</text>
+<rect x="2440" y="926" width="370" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="942" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="956" text-anchor="middle" font-size="12" font-weight="bold">EmisorFacturaElectronica</text>
+<line x1="2440" y1="966" x2="2810" y2="966" stroke="#444"/>
+<text x="2446" y="982" font-size="10.5">+emitir(orden): Factura</text>
+<rect x="2440" y="1030" width="370" height="76" fill="#cfe3ff" stroke="#444"/>
+<text x="2625.0" y="1046" text-anchor="middle" font-size="10" fill="#444">«interface»</text>
+<text x="2625.0" y="1060" text-anchor="middle" font-size="12" font-weight="bold">Reloj</text>
+<line x1="2440" y1="1070" x2="2810" y2="1070" stroke="#444"/>
+<text x="2446" y="1086" font-size="10.5">+ahora(): datetime</text>
+<rect x="2960" y="110" width="380" height="148" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="126" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="3150.0" y="140" text-anchor="middle" font-size="12" font-weight="bold">RepositorioCatalogoMySQL  ✔ completo</text>
+<line x1="2960" y1="150" x2="3340" y2="150" stroke="#444"/>
+<text x="2966" y="166" font-size="10.5">-fabrica_conexion: Callable  «PyMySQL»</text>
+<line x1="2960" y1="174" x2="3340" y2="174" stroke="#444"/>
+<text x="2966" y="190" font-size="10.5">+obtener_evento(id)</text>
+<text x="2966" y="206" font-size="10.5">+obtener_recinto(id)</text>
+<text x="2966" y="222" font-size="10.5">+listar_asientos_recinto(id)</text>
+<text x="2966" y="238" font-size="10.5">-_consultar(sql, params)</text>
+<rect x="2960" y="286" width="380" height="164" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="302" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="3150.0" y="316" text-anchor="middle" font-size="12" font-weight="bold">RepositorioOrdenesMongo  ✔ completo</text>
+<line x1="2960" y1="326" x2="3340" y2="326" stroke="#444"/>
+<text x="2966" y="342" font-size="10.5">-coleccion: Collection  «PyMongo»</text>
+<line x1="2960" y1="350" x2="3340" y2="350" stroke="#444"/>
+<text x="2966" y="366" font-size="10.5">+guardar(orden)</text>
+<text x="2966" y="382" font-size="10.5">+obtener(orden_id)</text>
+<text x="2966" y="398" font-size="10.5">+buscar_ocupantes_evento(...)</text>
+<text x="2966" y="414" font-size="10.5">+buscar_por_cliente_y_evento(...)</text>
+<text x="2966" y="430" font-size="10.5">+buscar_pendientes_vencidas(ahora)</text>
+<rect x="2960" y="478" width="380" height="132" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="494" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="3150.0" y="508" text-anchor="middle" font-size="12" font-weight="bold">RepositorioBoletosMongo  ✔ completo</text>
+<line x1="2960" y1="518" x2="3340" y2="518" stroke="#444"/>
+<text x="2966" y="534" font-size="10.5">-coleccion: Collection  «PyMongo»</text>
+<line x1="2960" y1="542" x2="3340" y2="542" stroke="#444"/>
+<text x="2966" y="558" font-size="10.5">+guardar_todos(boletos)</text>
+<text x="2966" y="574" font-size="10.5">+buscar_por_orden(id)</text>
+<text x="2966" y="590" font-size="10.5">+buscar_por_codigo(codigo)</text>
+<rect x="2960" y="638" width="380" height="108" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="654" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="3150.0" y="668" text-anchor="middle" font-size="12" font-weight="bold">Repositorios en memoria (demo/pruebas)</text>
+<line x1="2960" y1="678" x2="3340" y2="678" stroke="#444"/>
+<text x="2966" y="694" font-size="10.5">RepositorioCatalogoMemoria</text>
+<text x="2966" y="710" font-size="10.5">RepositorioOrdenesMemoria</text>
+<text x="2966" y="726" font-size="10.5">RepositorioBoletosMemoria</text>
+<rect x="2960" y="774" width="380" height="132" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="790" text-anchor="middle" font-size="10" fill="#444">«abstract»</text>
+<text x="3150.0" y="804" text-anchor="middle" font-size="12" font-weight="bold">PasarelaSimulada  «mock»</text>
+<line x1="2960" y1="814" x2="3340" y2="814" stroke="#444"/>
+<text x="2966" y="830" font-size="10.5">-pagos: Dict</text>
+<line x1="2960" y1="838" x2="3340" y2="838" stroke="#444"/>
+<text x="2966" y="854" font-size="10.5">+registrar_pago(solicitud)</text>
+<text x="2966" y="870" font-size="10.5">+verificar_pago(referencia)</text>
+<text x="2966" y="886" font-size="10.5">+simular_estado(ref, estado)</text>
+<rect x="2960" y="934" width="380" height="52" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="950" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="964" text-anchor="middle" font-size="12" font-weight="bold">PasarelaPayPalMock</text>
+<rect x="2960" y="1014" width="380" height="52" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1030" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1044" text-anchor="middle" font-size="12" font-weight="bold">PasarelaWompiMock</text>
+<rect x="2960" y="1094" width="380" height="52" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1110" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1124" text-anchor="middle" font-size="12" font-weight="bold">PasarelaPSEMock</text>
+<rect x="2960" y="1174" width="380" height="100" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1190" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1204" text-anchor="middle" font-size="12" font-weight="bold">NotificadorEmailSendGridMock</text>
+<line x1="2960" y1="1214" x2="3340" y2="1214" stroke="#444"/>
+<text x="2966" y="1230" font-size="10.5">+enviados: List</text>
+<line x1="2960" y1="1238" x2="3340" y2="1238" stroke="#444"/>
+<text x="2966" y="1254" font-size="10.5">+enviar(cliente, mensaje)</text>
+<rect x="2960" y="1302" width="380" height="100" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1318" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1332" text-anchor="middle" font-size="12" font-weight="bold">NotificadorWhatsAppMock</text>
+<line x1="2960" y1="1342" x2="3340" y2="1342" stroke="#444"/>
+<text x="2966" y="1358" font-size="10.5">+enviados: List</text>
+<line x1="2960" y1="1366" x2="3340" y2="1366" stroke="#444"/>
+<text x="2966" y="1382" font-size="10.5">+enviar(cliente, mensaje)</text>
+<rect x="2960" y="1430" width="380" height="76" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1446" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1460" text-anchor="middle" font-size="12" font-weight="bold">GeneradorBoletoSVGMock</text>
+<line x1="2960" y1="1470" x2="3340" y2="1470" stroke="#444"/>
+<text x="2966" y="1486" font-size="10.5">+generar(boleto, evento)</text>
+<rect x="2960" y="1534" width="380" height="76" fill="#fff7e6" stroke="#444"/>
+<text x="3150.0" y="1550" text-anchor="middle" font-size="10" fill="#444">«mock»</text>
+<text x="3150.0" y="1564" text-anchor="middle" font-size="12" font-weight="bold">EmisorFacturaDIANMock</text>
+<line x1="2960" y1="1574" x2="3340" y2="1574" stroke="#444"/>
+<text x="2966" y="1590" font-size="10.5">+emitir(orden): Factura</text>
+<rect x="2960" y="1638" width="380" height="76" fill="#ffe6bf" stroke="#444"/>
+<text x="3150.0" y="1654" text-anchor="middle" font-size="10" fill="#444">«adapter»</text>
+<text x="3150.0" y="1668" text-anchor="middle" font-size="12" font-weight="bold">RelojSistema</text>
+<line x1="2960" y1="1678" x2="3340" y2="1678" stroke="#444"/>
+<text x="2966" y="1694" font-size="10.5">+ahora(): datetime</text>
+</svg>
